@@ -6,7 +6,7 @@ import random
 """
 computer=random.choice([1,0,-1])
 user=input("Enter:")
-userdict={"s":1,"p":0,"c":-1}
+userdict={"s":1,"p":0,"c":-1} # c is for scissors
 reverse_user={1:"Stone",0:"Paper",-1:"Scissors"}
 
 you=userdict[user]
@@ -32,5 +32,6 @@ else:
     else:
         print("Something Went Wrong!")
             
+
 
 
